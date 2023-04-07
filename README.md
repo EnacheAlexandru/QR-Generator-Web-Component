@@ -12,7 +12,7 @@ The web component is written in **TypeScript** and has been developed with the h
 
 The web component does not have its own QR code generation algorithm. Instead, it uses an API that returns a QR code image by sending a GET request with different parameters to a QR code generation server.
 
-The chosen server can be found on goqr.me and is made by [Andreas Haerter](https://andreashaerter.com) and [Andreas Wolf](https://a-w.io). They have explicitly stated that any QR codes created by their generation algorithm on their server are completely free of charge (including personal and commercial).
+The chosen server can be found on [goqr.me](https://goqr.me) and is made by [Andreas Haerter](https://andreashaerter.com) and [Andreas Wolf](https://a-w.io). They have explicitly stated that any QR codes created by their generation algorithm on their server are completely free of charge (including personal and commercial).
 
 Essentially, this web component is an attempt to simplify the use of the API by providing a friendly interface for the user and also simplify its integration in various applications. 
 
@@ -20,14 +20,14 @@ Alternatively, if the developer does not want to let the user control the parame
 
     <qr-generator hide="true"></qr-generator>
 
-The developer can also set other HTML attributes directly. The attributes that can be used will be presented in the next sections.
+The developer can also set other HTML attributes directly. The attributes that can be used will be presented in the [QR Parameters](#qr-parameters) section below.
 
 ## Instalation
 
 ### Prerequisites
-You should have **Node.js** and **npm** installed on your computer. These two can be downloaded together from their official website: nodejs.org.
+You should have **Node.js** and **npm** installed on your computer. These two can be downloaded together from their official website: [nodejs.org](https://nodejs.org).
 
-> The *QR Generator Web Component* was developed using **Node.js v18.15** and **npm v9.5**
+> The *QR Generator Web Component* was developed using **Node.js v18.15** and **npm v9.5**.
 
 ---
 To run and modify the web component, follow the steps below:
